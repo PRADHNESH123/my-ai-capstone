@@ -12,7 +12,7 @@ st.set_page_config(
 
 # ── API URL ───────────────────────────────────────────────
 import os
-API_URL = os.getenv("API_URL", "http://localhost:8000/predict")
+API_URL = os.getenv("API_URL", "https://my-ai-capstone.onrender.com/predict")
 
 # ── Header ────────────────────────────────────────────────
 st.title("📊 Customer Churn Predictor")
